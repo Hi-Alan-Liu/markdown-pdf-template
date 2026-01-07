@@ -1,0 +1,90 @@
+/* =========================
+   Base typography
+========================= */
+body {
+  font-size: 12pt;
+  line-height: 1.75;
+  color: #111;
+}
+
+/* 主標題：粗體大字 */
+h1 {
+  font-size: 26pt;
+  font-weight: bold;
+  margin: 0 0 14pt;
+}
+
+/* 章節標題：粗體+底線 */
+h2 {
+  font-size: 15pt;
+  font-weight: bold;
+  margin: 22pt 0 10pt;
+  padding-bottom: 10pt;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* 小標 */
+h3 {
+  font-size: 13pt;
+  font-weight: 800;
+  margin: 14pt 0 8pt;
+}
+
+/* 表格：表頭第一行有底色 */
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  margin: 10pt 0 16pt; 
+  font-size: 11pt; 
+}
+
+th,td { 
+  border: 1px solid #e6e6e6; 
+  padding: 10pt; 
+  vertical-align:top; 
+}
+
+thead th, th{ 
+  background: #f3f3f3; 
+  font-weight: 800; 
+}
+
+.page-break{ 
+  page-break-after: always; 
+}
+
+.section-gap{ 
+  height: 40pt; 
+}
+
+.pdf-fixed-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 60px; /* 設定一個固定高度 */
+  padding: 0 20px;
+}
+
+.pdf-logo {
+  height: 40px;
+  z-index: 2; /* 確保圖片在文字上方 */
+}
+
+.text-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+}
+
+.company {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 12px;
+  margin-top: 2px;
+}

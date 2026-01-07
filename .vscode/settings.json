@@ -1,0 +1,37 @@
+{
+  "explorer.confirmDelete": false,
+
+  // -------------------------
+  // Markdown PDF（提案 PDF 建議）
+  // -------------------------
+  "markdown-pdf.type": ["pdf"],
+  "markdown-pdf.format": "A4",
+  "markdown-pdf.orientation": "portrait",
+  "markdown-pdf.quality": 100,
+
+  // 如果你習慣用「換行」分段，建議 true
+  "markdown-pdf.breaks": true,
+
+  // 讓表格底色/備註底色會印出來
+  "markdown-pdf.printBackground": true,
+  "markdown-pdf.includeDefaultStyles": true,
+
+  // 邊界（提案看起來比較舒服）
+  "markdown-pdf.margin.top": "1.8cm",
+  "markdown-pdf.margin.bottom": "1.6cm",
+  "markdown-pdf.margin.left": "1.3cm",
+  "markdown-pdf.margin.right": "1.3cm",
+
+  // 頁首/頁尾＋頁碼
+  "markdown-pdf.displayHeaderFooter": true,
+  "markdown-pdf.headerTemplate": "<div style='width:100%; font-size:9px; padding:0 1cm; display:flex; justify-content:space-between; align-items:center;'><div><span class='title'></span></div><div>%%ISO-DATE%%</div></div>",
+  "markdown-pdf.footerTemplate": "<div style='width:100%; font-size:9px; padding:0 1cm; display:flex; justify-content:flex-end;'><span class='pageNumber'></span> / <span class='totalPages'></span></div>",
+
+  // 套用你的自訂 CSS（建議放在專案內）
+  "markdown-pdf.styles": ["styles/pdf.css"],
+  "markdown-pdf.stylesRelativePathFile": true,
+
+  // 統一輸出位置（可改成你喜歡的資料夾）
+  "markdown-pdf.outputDirectory": "output",
+  "markdown-pdf.outputDirectoryRelativePathFile": true
+}
