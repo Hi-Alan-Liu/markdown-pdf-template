@@ -21,7 +21,7 @@
 
 在 VS Code Extensions 搜尋並安裝：
 
-- **Markdown PDF**（作者：yzane）[點擊下載](https://hi-alan-liu.github.io/image-watermark/)
+- **Markdown PDF**（作者：yzane）[點擊安裝](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
 
 ---
 
