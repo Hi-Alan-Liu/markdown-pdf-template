@@ -31,6 +31,9 @@
 2. 於編輯器中 **右鍵**
 3. 選擇：`Markdown PDF: Export (pdf)`
 
+## 輸出範例
+![PDF 輸出範例](https://raw.githubusercontent.com/Hi-Alan-Liu/markdown-pdf-template/main/demo/export%20(pdf).png)
+
 ---
 
 ### 3) 確認輸出位置
